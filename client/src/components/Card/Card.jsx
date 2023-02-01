@@ -1,10 +1,10 @@
 import { Button, Image, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 
-const Card = ({ amount, img, checkoutHandler }) => {
+const Card = ({ amount, textarea, checkoutHandler }) => {
     return (
         <VStack>
-            <Image src={img} boxSize={"64"} objectFit="cover" />
+            <textarea name="Subscription for Unlimited questions" id="" cols="30" rows="10"></textarea>
             <Text>₹{amount}</Text>
             <Button onClick={() => checkoutHandler(amount)}>Buy Now</Button>
         </VStack>
