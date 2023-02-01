@@ -6,7 +6,6 @@ import Navbar from './components/Navbar/Navbar'
 import AllRoutes from './AllRoutes'
 import { fetchAllQuestions } from './actions/question'
 import { fetchAllUsers } from './actions/users'
-import ChatBot from "./components/Chatbot/ChatBot"
 
 function App() {
 
@@ -22,7 +21,6 @@ function App() {
       <Router >
         <Navbar />
         <AllRoutes />
-        <ChatBot/>
       </Router >
     </div>
   );
